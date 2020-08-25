@@ -18,5 +18,5 @@ In progress...
       </ul>
   </li>
   <li>We can check if java installation successful:</li>
-  <img src="images/java.JPG" width="500" height="80">
+  <img src="images/java.JPG" width="500" height="100">
 </ol>
