@@ -29,3 +29,10 @@ In progress...
   <li>Start Kafka in console:</li>
   <img src="images/kafka.JPG">
 </ol>
+<h3>Configuration</h3>
+<ol>
+  <li>Crete additional folders in Kafka directory:</li>
+  <img src="images/data_dir.JPG">
+  <li>Edit files: zookeeper.properties and server.properties in kafka/config directory</li>
+  <img src="images/properties.JPG">
+</ol>
