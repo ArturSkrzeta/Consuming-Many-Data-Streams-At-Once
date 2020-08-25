@@ -5,7 +5,7 @@ In progress...
   <li>Data/Event streaming technology.</li>
   <li>Perfect for event driven architecture.</li>
   <li>Kafka is distributed horizontally and redundant (makes copy of all the events) backuping itself in case of failure.</li>
-  <li>...</li>
+  <li>Kafka needs zookeper to run first.</li>
 </ul>
 <h3>Installation</h3>
 <ol>
@@ -35,4 +35,6 @@ In progress...
   <img src="images/data_dir.JPG">
   <li>Edit files: zookeeper.properties and server.properties in kafka/config directory</li>
   <img src="images/properties.JPG">
+  <li>Edit zookeeper connection string in server.properties:</li>
+  <img src="images/connection_str.JPG">
 </ol>
