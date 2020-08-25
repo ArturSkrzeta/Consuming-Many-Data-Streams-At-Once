@@ -52,5 +52,6 @@
 <h3>Producer</h3>
 <ul>
   <li>Producing messages to kafka broker: <br> C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test topic </li>
+  <li>Producing messages to kafka broker: <br> C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:2181 --topic test topic </li>
   <img src="images/producer.JPG">
 </ul>
