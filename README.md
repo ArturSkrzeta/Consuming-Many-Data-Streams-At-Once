@@ -77,3 +77,8 @@
 <ul>
   <img src="images/prod_cons.gif">
 </ul>
+<h3>Python for Kafka</h3>
+<ul>
+  <li>Pykafka installation: pip install pykafka.</li>
+  <li>Importing: from pykafka import KafkaClient.</li>
+</ul>
