@@ -1,5 +1,4 @@
 <h2>Apache Kafka for Event Driven Architecture</h2>
-In progress...
 <h3>Intro</h3>
 <ul>
   <li>Data/Event streaming technology.</li>
@@ -35,7 +34,6 @@ In progress...
   <img src="images/data_dir.JPG">
   <li>Edit files: zookeeper.properties and server.properties in kafka/config directory</li>
   <img src="images/properties.JPG">
-  <li>Edit zookeeper connection string in server.properties:</li>
 </ol>
 <h3>Running zookeper and kafka</h3>
 <ol>
