@@ -5,7 +5,7 @@
   <li>For event driven architecture.</li>
   <li>Kafka is distributed horizontally.</li>
   <li>Kafka is redundant backuping itself up.</li>
-  <li>There is need fot zookeper to run first.</li>
+  <li>There is need for zookeper to run first.</li>
 </ul>
 <h3>Installation</h3>
 <ol>
