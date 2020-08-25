@@ -11,10 +11,10 @@ In progress...
 <ol>
   <li>Install Java.</li>
   <li>Add Java to environment variables
-      <ol>
+      <ul>
         <li>My java directory C:\Program Files\Java\jdk-14.0.2</li>
         <li>C:\Program Files\Java\jdk-14.0.2\bin as PATH to User variables.</li>
         <li>C:\Program Files\Java\jdk-14.0.2 as JAVA_HOME to System variables.</li>
-      </ol>
+      </ul>
   </li>
 </ol>
