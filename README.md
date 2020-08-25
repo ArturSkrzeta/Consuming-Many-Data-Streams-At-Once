@@ -42,3 +42,8 @@
   <li>kafka second - runs on port 0.0.0.0:9092</li>
   <img src="images/kafka_start.JPG">
 </ol>
+<h3>Creating Topic</h3>
+<ol>
+  <li>...</li>
+  <li>...</li>  
+<ol>
