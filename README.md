@@ -49,6 +49,7 @@
 <h3>Topics on kafka broker</h3>
 <ul>
   <li>Creating new one: <br> <b>C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost:2181 --topic test2 --create --partitions 1 --replication-factor 1 </b> </li>
+  <br>
   <img src="images/topic.JPG">
   <li>Listing all topics: <br> <b>C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost:2181 --topic test_topic --describe </b> </li>
   <br>
