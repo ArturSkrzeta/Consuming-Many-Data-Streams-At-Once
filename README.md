@@ -36,12 +36,11 @@ In progress...
   <li>Edit files: zookeeper.properties and server.properties in kafka/config directory</li>
   <img src="images/properties.JPG">
   <li>Edit zookeeper connection string in server.properties:</li>
-  <img src="images/connection_str.JPG">
 </ol>
 <h3>Running zookeper and kafka</h3>
 <ol>
-  <li>zookeeper first</li>
+  <li>zookeeper first - runs on port 0.0.0.0:2181</li>
   <img src="images/zookeeper_start.JPG">
-  <li>kafka second</li>
+  <li>kafka second - runs on port 0.0.0.0:9092</li>
   <img src="images/kafka_start.JPG">
 </ol>
