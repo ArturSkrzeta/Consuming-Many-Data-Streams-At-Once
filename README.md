@@ -73,3 +73,7 @@
   <br>
   <img src="images/consumer-connected.JPG">
 </ul>
+<h3>Producer -> Message -> Consumer</h3>
+<ul>
+  <img src="images/prod_cons.gif">
+</ul>
