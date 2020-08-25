@@ -17,4 +17,6 @@ In progress...
         <li>C:\Program Files\Java\jdk-14.0.2 as JAVA_HOME to System variables.</li>
       </ul>
   </li>
+  <li>We can check if java installation successful:</li>
+  <img src="images/java.JPG">
 </ol>
