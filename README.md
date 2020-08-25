@@ -1,9 +1,10 @@
 <h2>Apache Kafka for Event Driven Architecture</h2>
 <h3>Intro</h3>
 <ul>
-  <li>Data/Event streaming technology.</li>
-  <li>Perfect for event driven architecture.</li>
-  <li>Kafka is distributed horizontally and redundant (makes copy of all the events) backuping itself in case of failure.</li>
+  <li>Data streaming technology.</li>
+  <li>For event driven architecture.</li>
+  <li>Kafka is distributed horizontally.</li>
+  <li>Kafka is redundant backuping itself up in case of failure.</li>
   <li>Kafka needs zookeper to run first.</li>
 </ul>
 <h3>Installation</h3>
