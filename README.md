@@ -86,5 +86,6 @@
       <li>client = KafkaClient(hosts="localhost:9092")</li>
     </ul>
   </li>
+  <br>
   <img src="images/pykafka.gif">
 </ul>
