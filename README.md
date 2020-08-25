@@ -4,8 +4,8 @@
   <li>Data streaming technology.</li>
   <li>For event driven architecture.</li>
   <li>Kafka is distributed horizontally.</li>
-  <li>Kafka is redundant backuping itself up in case of failure.</li>
-  <li>Kafka needs zookeper to run first.</li>
+  <li>Kafka is redundant backuping itself up.</li>
+  <li>There is need fot zookeper to run first.</li>
 </ul>
 <h3>Installation</h3>
 <ol>
@@ -18,6 +18,7 @@
       </ul>
   </li>
   <li>We can check if java installation successful:</li>
+  <br>
   <img src="images/java.JPG">
   <li>Install Kafka from https://kafka.apache.org/downloads</li>
   <li>Add Kafka to environment variables
@@ -27,15 +28,19 @@
       </ul>
   </li>
   <li>Start Kafka in console:</li>
+  <br>
   <img src="images/kafka.JPG">
 </ol>
 <h3>Configuration</h3>
 <ol>
   <li>Crete additional folders in Kafka directory:</li>
+  <br>
   <img src="images/data_dir.JPG">
   <li>Edit files: zookeeper.properties and server.properties in kafka/config directory</li>
+  <br>
   <img src="images/properties.JPG">
   <li>Edit file: server.properties in kafka/config directory</li>
+  <br>
   <img src="images/listeners.JPG">
 </ol>
 <h3>Running zookeper and kafka</h3>
