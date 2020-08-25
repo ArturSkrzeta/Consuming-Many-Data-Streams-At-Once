@@ -49,3 +49,8 @@
   <li>Listing all topics:</li>
    <img src="images/topic_list.JPG">
 </ul>
+<h3>Producer</h3>
+<ul>
+  <li>Producing messages to kafka broker:</li>
+  <img src="images/producer.JPG">
+</ul>
