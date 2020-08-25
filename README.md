@@ -37,9 +37,9 @@
 </ol>
 <h3>Running zookeper and kafka</h3>
 <ol>
-  <li>zookeeper first - runs on port 0.0.0.0:2181 <br> C:\kafka\bin\windows>zookeeper-server-start.bat ../../config/zookeeper.properties <br> </li>
+  <li>zookeeper first - runs on port 0.0.0.0:2181 <br> C:\kafka\bin\windows>zookeeper-server-start.bat ../../config/zookeeper.properties </li>
   <img src="images/zookeeper_start.JPG">
-  <li>kafka second - runs on port 0.0.0.0:9092 <br> C:\kafka\bin\windows>kafka-server-start.bat ../../config/server.properties <br> </li>
+  <li>kafka second - runs on port 0.0.0.0:9092 <br> C:\kafka\bin\windows>kafka-server-start.bat ../../config/server.properties <br> once conntecte: [2020-08-25 14:19:03,357] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)</li>
   <img src="images/kafka_start.JPG">
 </ol>
 <h3>Topics on kafka broker</h3>
