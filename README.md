@@ -37,16 +37,16 @@
 </ol>
 <h3>Running zookeper and kafka</h3>
 <ol>
-  <li>zookeeper first - runs on port 0.0.0.0:2181 <br> C:\kafka\bin\windows>zookeeper-server-start.bat ../../config/zookeeper.properties</li>
+  <li>zookeeper first - runs on port 0.0.0.0:2181 <br> C:\kafka\bin\windows>zookeeper-server-start.bat ../../config/zookeeper.properties <br> </li>
   <img src="images/zookeeper_start.JPG">
-  <li>kafka second - runs on port 0.0.0.0:9092 <br> C:\kafka\bin\windows>kafka-server-start.bat ../../config/server.properties</li>
+  <li>kafka second - runs on port 0.0.0.0:9092 <br> C:\kafka\bin\windows>kafka-server-start.bat ../../config/server.properties <br> </li>
   <img src="images/kafka_start.JPG">
 </ol>
 <h3>Topics on kafka broker</h3>
 <ul>
-  <li>Creating new one: <br> C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost2181 --topic test2 --create --partitions 1 --replication-factor 1</li>
+  <li>Creating new one: <br> C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost2181 --topic test2 --create --partitions 1 --replication-factor 1 <br> </li>
   <img src="images/topic.JPG">
-  <li>Listing all topics: <br> C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost2181 --topic test_topic --describe</li>
+  <li>Listing all topics: <br> C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost2181 --topic test_topic --describe <br> </li>
   <img src="images/topic_list.JPG">
 </ul>
 <h3>Producer</h3>
