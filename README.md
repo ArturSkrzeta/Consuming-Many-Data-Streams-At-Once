@@ -34,6 +34,8 @@
   <img src="images/data_dir.JPG">
   <li>Edit files: zookeeper.properties and server.properties in kafka/config directory</li>
   <img src="images/properties.JPG">
+  <li>Edit file: server.properties in kafka/config directory</li>
+  <img src="images/listeners.JPG">
 </ol>
 <h3>Running zookeper and kafka</h3>
 <ol>
@@ -51,7 +53,6 @@
 </ul>
 <h3>Producer</h3>
 <ul>
-  <li>Producing messages to kafka broker: <br> C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test_topic </li>
-  <li>Producing messages to kafka broker: <br> C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:2181 --topic test_topic </li>
-  <img src="images/producer.JPG">
+  <li>Producing messages to kafka broker: <br> C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test2 </li>
+  <img src="images/messages.JPG">
 </ul>
