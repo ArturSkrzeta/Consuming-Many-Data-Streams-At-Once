@@ -48,7 +48,7 @@
   <li>zookeeper first - runs on localhost:2181 <br><b>C:\kafka\bin\windows>zookeeper-server-start.bat ../../config/zookeeper.properties <br> [2020-08-25 14:17:57,974] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)</b></li>
   <br>
   <img src="images/zookeeper_start.JPG">
-  <li>kafka second - runs on port 0.0.0.0:9092 <br><b>C:\kafka\bin\windows>kafka-server-start.bat ../../config/server.properties <br> once conntecte: [2020-08-25 14:19:03,357] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)</b></li>
+  <li>kafka second - runs on localhost:9092 <br><b>C:\kafka\bin\windows>kafka-server-start.bat ../../config/server.properties <br> once conntecte: [2020-08-25 14:19:03,357] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)</b></li>
   <br>
   <img src="images/kafka_start.JPG">
 </ol>
