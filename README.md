@@ -38,3 +38,10 @@ In progress...
   <li>Edit zookeeper connection string in server.properties:</li>
   <img src="images/connection_str.JPG">
 </ol>
+<h3>Running zookeper and kafka</h3>
+<ol>
+  <li>zookeeper first</li>
+  <img src="images/zookeeper_start.JPG">
+  <li>kafka second</li>
+
+</ol>
