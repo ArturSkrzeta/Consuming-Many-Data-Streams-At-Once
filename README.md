@@ -69,7 +69,7 @@
 </ul>
 <h3>Consumer</h3>
 <ul>
-  <li>Producing messages to kafka broker: <br> <b>C:\kafka\bin\windows>kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test2 --from-beginning</b>> </li>
+  <li>Establishing consumer to topic: <br> <b>C:\kafka\bin\windows>kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test2 --from-beginning</b>> </li>
   <br>
   <img src="images/consumer-connected.JPG">
 </ul>
