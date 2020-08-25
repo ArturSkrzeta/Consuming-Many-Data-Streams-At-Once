@@ -39,21 +39,21 @@
 </ol>
 <h3>Running zookeper and kafka</h3>
 <ol>
-  <li>zookeeper first - runs on localhost:2181 <br> C:\kafka\bin\windows>zookeeper-server-start.bat ../../config/zookeeper.properties <br> [2020-08-25 14:17:57,974] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)</li>
+  <li>zookeeper first - runs on localhost:2181 <br><b>C:\kafka\bin\windows>zookeeper-server-start.bat ../../config/zookeeper.properties <br> [2020-08-25 14:17:57,974] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)</b></li>
   <img src="images/zookeeper_start.JPG">
-  <li>kafka second - runs on port 0.0.0.0:9092 <br> C:\kafka\bin\windows>kafka-server-start.bat ../../config/server.properties <br> once conntecte: [2020-08-25 14:19:03,357] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)</li>
+  <li>kafka second - runs on port 0.0.0.0:9092 <br><b>C:\kafka\bin\windows>kafka-server-start.bat ../../config/server.properties <br> once conntecte: [2020-08-25 14:19:03,357] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)</b></li>
   <img src="images/kafka_start.JPG">
 </ol>
 <h3>Topics on kafka broker</h3>
 <ul>
-  <li>Creating new one: <br> C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost:2181 --topic test2 --create --partitions 1 --replication-factor 1 <br> </li>
+  <li>Creating new one: <br> <b>C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost:2181 --topic test2 --create --partitions 1 --replication-factor 1 </b> </li>
   <img src="images/topic.JPG">
-  <li>Listing all topics: <br> C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost:2181 --topic test_topic --describe <br> </li>
+  <li>Listing all topics: <br> <b>C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost:2181 --topic test_topic --describe </b> </li>
   <img src="images/topic_list.JPG">
 </ul>
 <h3>Producer</h3>
 <ul>
-  <li>Producing messages to kafka broker: <br> C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test2 </li>
+  <li>Producing messages to kafka broker: <br> <b>C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test2</b>> </li>
   <br>
   <img src="images/messages.JPG">
 </ul>
