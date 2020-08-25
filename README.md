@@ -43,5 +43,5 @@ In progress...
   <li>zookeeper first</li>
   <img src="images/zookeeper_start.JPG">
   <li>kafka second</li>
-
+  <img src="images/kafka_start.JPG">
 </ol>
