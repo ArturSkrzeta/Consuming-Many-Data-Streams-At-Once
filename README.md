@@ -20,6 +20,7 @@ In progress...
   <li>We can check if java installation successful:</li>
   <img src="images/java.JPG">
   <li>Install Kafka from https://kafka.apache.org/downloads</li>
-  <li>Unzip Kafka as start it in console:</li>
+  <li>Unzip Kafka.</li>
+  <li>Start Kafka in console:</li>
   <img src="images/kafka.JPG">
 </ol>
