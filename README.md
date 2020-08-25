@@ -44,10 +44,10 @@
 </ol>
 <h3>Topics on kafka broker</h3>
 <ul>
-  <li>Creating new one:</li>
+  <li>Creating new one: C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost2181 --topic test2 --create --partitions 1 --replication-factor 1</li>
   <img src="images/topic.JPG">
-  <li>Listing all topics:</li>
-   <img src="images/topic_list.JPG">
+  <li>Listing all topics: C:\kafka\bin\windows>kafka-topics.bat --zookeeper localhost2181 --topic test_topic --describe</li>
+  <img src="images/topic_list.JPG">
 </ul>
 <h3>Producer</h3>
 <ul>
