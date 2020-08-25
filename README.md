@@ -81,4 +81,9 @@
 <ul>
   <li>Pykafka installation: pip install pykafka.</li>
   <li>Importing: from pykafka import KafkaClient.</li>
+  <li>Creating instance of KafkaCleint
+    <ul>
+      <li>client = KafkaClient(hosts="localhost:9092")</li>
+    </ul>
+  </li>
 </ul>
