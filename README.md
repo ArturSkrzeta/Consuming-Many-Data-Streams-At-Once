@@ -12,7 +12,7 @@ In progress...
   <li>Install Java.</li>
   <li>Add Java to environment variables
       <ul>
-        <li>My java directory C:\Program Files\Java\jdk-14.0.2.</li>
+        <li>My java directory: C:\Program Files\Java\jdk-14.0.2.</li>
         <li>C:\Program Files\Java\jdk-14.0.2\bin as PATH to User variables.</li>
         <li>C:\Program Files\Java\jdk-14.0.2 as JAVA_HOME to System variables.</li>
       </ul>
@@ -20,6 +20,12 @@ In progress...
   <li>We can check if java installation successful:</li>
   <img src="images/java.JPG">
   <li>Install Kafka from https://kafka.apache.org/downloads</li>
+  <li>Add Kafka to environment variables
+       <ul>
+        <li>My kafka directory: C:\kafka\bin\windows.</li>
+        <li>C:\kafka\bin\windows as PATH to User variables.</li>
+      </ul>
+  </li>
   <li>Start Kafka in console:</li>
   <img src="images/kafka.JPG">
 </ol>
