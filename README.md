@@ -43,7 +43,7 @@
   <img src="images/kafka_start.JPG">
 </ol>
 <h3>Creating Topic</h3>
-<img scr="images/topic.JPG">
+<img src="images/topic.JPG">
 <ol>
   <li>...</li>
   <li>...</li>  
