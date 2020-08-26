@@ -89,4 +89,8 @@
   <br>
   <img src="images/pykafka.gif">
 </ul>
+<h3>Multiple Python Producers</h3>
+<ul>
+  <li><img src="images/multiple_producers.gif"></li> 
+</ul>  
 <h3>Python Consumer</h3>
