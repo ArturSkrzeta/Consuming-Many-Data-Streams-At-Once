@@ -61,13 +61,13 @@
   <br>
   <img src="images/topic_list.JPG">
 </ul>
-<h3>Producer</h3>
+<h3>Kafka Producer</h3>
 <ul>
   <li>Producing messages to kafka broker: <br> <b>C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test2</b>> </li>
   <br>
   <img src="images/messages.JPG">
 </ul>
-<h3>Consumer</h3>
+<h3>Kafka Consumer</h3>
 <ul>
   <li>Establishing consumer to topic: <br> <b>C:\kafka\bin\windows>kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test2 --from-beginning</b>> </li>
   <br>
@@ -77,7 +77,7 @@
 <ul>
   <img src="images/prod_cons.gif">
 </ul>
-<h3>Python for Kafka</h3>
+<h3>Python Producer</h3>
 <ul>
   <li>Pykafka installation: pip install pykafka.</li>
   <li>Importing: from pykafka import KafkaClient.</li>
@@ -89,3 +89,4 @@
   <br>
   <img src="images/pykafka.gif">
 </ul>
+<h3>Python Consumer</h3>
