@@ -64,13 +64,13 @@
 </ul>
 <h3>Kafka Producer</h3>
 <ul>
-  <li>Producing messages to kafka broker: <br> <b>C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test2</b>> </li>
+  <li>Producing messages to kafka broker: <br> <b>C:\kafka\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test2 </b> </li>
   <br>
   <img src="images/messages.JPG">
 </ul>
 <h3>Kafka Consumer</h3>
 <ul>
-  <li>Establishing consumer to topic: <br> <b>C:\kafka\bin\windows>kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test2 --from-beginning</b>> </li>
+  <li>Establishing consumer to topic: <br> <b>C:\kafka\bin\windows>kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test2 --from-beginning </b> </li>
   <br>
   <img src="images/consumer-connected.JPG">
 </ul>
