@@ -1,4 +1,5 @@
 <h2>Apache Kafka for Event Driven Architecture</h2>
+<p>Step by step Apache Kafka implementation and application creation.</p>
 <h3>Intro</h3>
 <ul>
   <li>Data streaming technology.</li>
