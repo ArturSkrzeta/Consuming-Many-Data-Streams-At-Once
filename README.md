@@ -1,5 +1,10 @@
 <h2>Apache Kafka for Event Driven Architecture</h2>
 <p>Step by step Apache Kafka implementation and application creation.</p>
+<h3>Kafka for Microservices</h3>
+<ul>
+  <li>Breaking a monolithic system of subsequent programs down into independent microservices.</li>
+  <li>Kafka as messaging central bus bonds all independent microservices.</li>
+</ul>
 <h3>Intro</h3>
 <ul>
   <li>Data streaming technology.</li>
