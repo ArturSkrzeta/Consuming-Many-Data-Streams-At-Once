@@ -91,6 +91,6 @@
 </ul>
 <h3>Multiple Python Producers</h3>
 <ul>
-  <li><img src="images/multiple_producers.gif"></li> 
+  <img src="images/multiple_producers.gif">
 </ul>  
 <h3>Python Consumer</h3>
