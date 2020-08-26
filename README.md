@@ -95,3 +95,7 @@
   <img src="images/multiple_producers.gif">
 </ul>  
 <h3>Python Flask Consumer</h3>
+<ul>
+  <img src="images/flask_consumer.gif">
+</ul>  
+
