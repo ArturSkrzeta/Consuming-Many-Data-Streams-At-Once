@@ -4,8 +4,9 @@
 <ul>
   <li>Breaking a monolithic system of subsequent programs down into independent microservices.</li>
   <li>Kafka as messaging central bus bonds all independent microservices.</li>
+  <li>Kafka decreases costs of microservices integration.</li>
 </ul>
-<h3>Intro</h3>
+<h3>Kafka</h3>
 <ul>
   <li>Data streaming technology.</li>
   <li>For event driven architecture.</li>
