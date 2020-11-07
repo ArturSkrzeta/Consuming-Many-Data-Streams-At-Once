@@ -88,7 +88,7 @@
 </ul>
 <h3>Python Producer</h3>
 <ul>
-  <li>Pykafka installation: pip install pykafka.</li>
+  <li>Pykafka installation: pip install pykafka</li>
   <li>Importing: from pykafka import KafkaClient.</li>
   <li>Creating instance of KafkaCleint
     <ul>
