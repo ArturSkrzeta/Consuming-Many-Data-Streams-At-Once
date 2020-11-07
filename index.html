@@ -12,8 +12,8 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><a href="https://arturskrzeta.github.io"><img src="images/avatar.png" alt="" /></a></span>
-					<h1 id="logo"><a href="https://arturskrzeta.github.io">Artur Skrzeta</a></h1>
+					<span class="image avatar"><a href="https://arturskrzeta.github.io/"><img src="images/avatar.png" alt="" /></a></span>
+					<h1 id="logo"><a href="https://arturskrzeta.github.io/">Artur Skrzeta</a></h1>
 					<p>Data Analyst<br />
 					+4 years experience</p>
 				</header>
@@ -46,14 +46,24 @@
 							<section id="one">
 								<div class="container">
 									<header class="major">
-										<h2>Create-Schedule-Monitor Workflows</h2>
+										<h2>Consuming Many Data Streams At Once</h2>
 										<h3>Intro</h3>
-										<p>Apache Airflow is the workflow management system to create, schedule and monitor workflows.</p>
+										<p>Apache Kafka</p>
 										<ul>
-											<li>A basic unit in Airflow is DAG - collection of tasks organized in a way that reflects their defined dependencies and relationships.</li>
-											<li>hile we treat DAG as conatiner for tasks, what triggers certain actions is operator - it says what kind of action we want to perform.</li>
-											<li>Task - instantiated operator which describes single task in workflow. Instantiating task requires providing unique task id and DAG container.</li>
+											<li>Data streaming technology.</li>
+										  <li>For event driven architecture.</li>
+										  <li>Kafka is distributed horizontally.</li>
+										  <li>Kafka is redundant backuping itself up.</li>
 										</ul>
+										<p>Kafka for microservices:</p>
+										<img src="images/microservices.JPG" width="780">
+											<ul>
+												<li>Breaking a monolithic system of subsequent programs down into independent microservices.</li>
+												<li>Kafka as messaging central bus bonds all independent microservices.</li>
+												<li>Kafka decreases costs of microservices integration.</li>
+												<li>Services providing data of the same nature in <b>Topic</b> are called a <b>producers</b>.</li>
+												<li>Service that takes the data from <b>Topic</b> is called a <b>consumer</b>.</li>
+											<ul>
 									</header>
 								</div>
 							</section>
@@ -64,7 +74,9 @@
 									<h3>Features</h3>
 									<p>App includes following features:</p>
 									<ul class="feature-icons">
-										<li class="icon solid fa-check">Apache Airflow</li>
+										<li class="icon solid fa-check">Apache Kafka</li>
+										<li class="icon solid fa-check">Pykafka</li>
+										<li class="icon solid fa-check">JSON</li>
 									</ul>
 								</div>
 							</section>
@@ -73,23 +85,13 @@
 							<section id="three">
 								<div class="container">
 									<h3>Demo</h3>
-									<p>Apache Airflow:</p>
-									<img src="images/graph.JPG" width="780">
+									<p>Application:</p>
 									<ul>
-										<li>Scheduling workflow for scraping webpage for getting currencies rates, processing it with expense data and mailing outcome.</li>
+										<li>Three public transports as producers send their coordinates to Kafka server.</li>
+										<li>Coordinates are bing send all the time as a data stream.</li>
+										<li>One central producer consumens data streams and tracks them down.</li>
 									</ul>
-									<p>Python:</p>
-									<ul>
-										<li>Preparing 3 programs:
-											<br>
-											- scraper.py<br>
-											- procesor.py<br>
-											- mailer.py
-										</li>
-										<li>Defining worflow:
-											<br>
-											- scraping >> processing >> mailing</li>
-									</ul>
+									<img src="images/multiple_producers.gif" width="780">
 								</div>
 							</section>
 
@@ -99,7 +101,10 @@
 									<h3>Setup</h3>
 									<p>Following installation required:</p>
 									<ul>
-										<li>pip install apache-airflow</li>
+										<li>pip install pykafka</li>
+										<li>Java</li>
+										<li>Kafka</li>
+										<li>Zookeper</li>
 									</ul>
 								</div>
 							</section>
@@ -108,7 +113,7 @@
 							<section id="five">
 								<div class="container">
 									<h3>Source Code</h3>
-									<p>You can view the source code: <a href="https://github.com/ArturSkrzeta/Apache-Airflow-for-Workflows/tree/master/dags">HERE</a></p>
+									<p>You can view the source code: <a href="https://github.com/ArturSkrzeta/Consuming-Many-Data-Streams-At-Once/tree/master/project">HERE</a></p>
 									<p>&nbsp</p>
 								</div>
 							</section>
