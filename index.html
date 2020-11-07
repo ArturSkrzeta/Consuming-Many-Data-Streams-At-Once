@@ -61,6 +61,8 @@
 												<li>Breaking a monolithic system of subsequent programs down into independent microservices.</li>
 												<li>Kafka as messaging central bus bonds all independent microservices.</li>
 												<li>Kafka decreases costs of microservices integration.</li>
+												<li>Services providing data of the same nature in <b>Topic</b> are called a <b>producers</b>.</li>
+												<li>Service that takes the data from <b>Topic</b> is called a <b>consumer</b>.</li>
 											<ul>
 									</header>
 								</div>
@@ -83,8 +85,13 @@
 							<section id="three">
 								<div class="container">
 									<h3>Demo</h3>
-									<p>.</p>
-
+									<p>Application:</p>
+									<ul>
+										<li>Three public transports as producers send their coordinates to Kafka server.</li>
+										<li>Coordinates are bing send all the time as a data stream.</li>
+										<li>One central producer consumens data streams and tracks them down.</li>
+									</ul>
+									<img src="images/multiple_producers.gif">
 								</div>
 							</section>
 
@@ -92,9 +99,12 @@
 							<section id="four">
 								<div class="container">
 									<h3>Setup</h3>
-									<p>Script requires libraries installation:</p>
+									<p>Following installation required:</p>
 									<ul>
 										<li>pip install pykafka</li>
+										<li>Java</li>
+										<li>Kafka</li>
+										<li>Zookeper</li>
 									</ul>
 								</div>
 							</section>
