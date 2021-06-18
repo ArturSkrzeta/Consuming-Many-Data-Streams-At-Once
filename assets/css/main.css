@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+img {
+	margin-bottom:20px;
+	max-width: 100%;
+}
+
 /* Basic */
 
 	html {
@@ -121,7 +126,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-size: 13px;
+		color: #777;
 		font-weight: 700;
 	}
 
@@ -201,7 +206,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: #555;
+		background: #628388;
 		border-radius: 5px;
 		color: #fff;
 		font-family: "Source Code Pro", monospace;
@@ -212,16 +217,21 @@ input, select, textarea {
 
 	pre {
 		font-family: "Source Code Pro", monospace;
-		font-size: 0.9em;
-		margin: 0 0 2.25em 0;
+		font-size: 0.7em;
+		line-height: 1.6em;
+		color: white;
+		margin: 1em 0 0.5em 0;
+		padding: 0.5em 0 0.5em 1em;
+		background: #223639;
+		border-radius: 5px;
 	}
 
 		pre code {
 			-webkit-overflow-scrolling: touch;
-			display: block;
-			line-height: 1.5em;
+			display: inline-block;
 			overflow-x: auto;
-			padding: 1em 1.5em;
+			border-radius: 0;
+			line-height: 0.5em;
 		}
 
 	.align-left {
@@ -2064,8 +2074,8 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: 0;
-			max-width: 100%;
-			height: auto;
+			width: 100%;
+			height: 100%;
 		}
 
 		.image[data-position="top left"] img {
@@ -2227,7 +2237,7 @@ input, select, textarea {
 	}
 
 		ul li {
-			padding-left: 0.2em;
+			padding-left: 0.5em;
 		}
 
 		ul.alt {
@@ -2251,7 +2261,7 @@ input, select, textarea {
 
 ul.features {
 		padding: 0;
-		font-size:13px;
+		font-size:14px;
 		color: #4acaa8;
 		margin: 0;
 	}
@@ -2477,6 +2487,9 @@ ul.features li {
 		width: 100%;
 	}
 
+td {
+  width: 25% ;
+}
 		table tbody tr {
 			border: solid 2px #f4f4f4;
 			border-left: 0;
@@ -2693,28 +2706,15 @@ ul.features li {
 		}
 
 		.features article .image {
+			display: inline-block;
 			padding-right: 2.5em;
 			vertical-align: middle;
-			max-width: 48%;
-			display: inline-block;
-		}
-
-		.recent .image img {
-			display: block;
-			height: auto;
-			max-width: 100%;
-		}
-
-		.recent {
-			border-bottom: solid 3px #f4f4f4;
-			padding-bottom: 30px;
-			margin-bottom: 30px;
+			width: 48%;
 		}
 
 			.features article .image img {
 				display: block;
 				width: 100%;
-				min-width: 300px;
 			}
 
 		.features article .inner {
@@ -2844,7 +2844,7 @@ ul.features li {
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.85em 0;
+						padding: 0.8em 0;
 						text-decoration: none;
 					}
 
