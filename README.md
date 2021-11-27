@@ -16,6 +16,30 @@
   <li>Kafka is redundant backuping itself up.</li>
   <li>There is need for zookeper to run first.</li>
 </ul>
+
+Kafka:
++ messaging and streaming applications
++ takes data from different sources and makes it available for different applications
++ helps to eliminate daily batch jobs
++ important role for CDC - chagne data capture and in the world of microservices
++ data streaming: continuously generated, small size events, low latency required
++ even when the destination system (consumer)  is not available it can pick up and process the message later
++ instead of one system talking directl to another system, now a system is talking to a middle layer - kafka - procduer sends messages or events to kafka
++ then kafka as middle layer needs to ensure high availability
++ new consumers can be added without any changes in system
++ kafka can be treated as a data stores - messages are kept forever
++ log is an another word for a stream
++ when producer sends an event it's appended at the end of message queue -- it doesn't matter how much data is already stored in the topic, it's not getting more costly for a producer to san a message
++ different consumers can read from different positions of the log
++ consumer reads the message but the message is still in the log (as opposed to sqs for example)  - different consumers can reread the same message
++ default expiry of a message is 7 days but it can be set to unlimited
++ topics are partitioned accros different brokers that make a cluster
++ state and config is being kept in the zookeeper
++ we use partitions to spread the data across the brokers for more throughut and more concurrency
++ replication replicates a partition from one broker to another - more availability and backup in case of borker's failure
++ on AWS : Amazon Managed Streaming for Kafka - MSK - zookeeper runs under the hood 
++ we can encrypt data in transit or data at rest in AWS
+
 <h3>Installation</h3>
 <ol>
   <li>Install Java.</li>
