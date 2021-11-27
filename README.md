@@ -16,6 +16,9 @@
   <li>Kafka is redundant backuping itself up.</li>
   <li>There is need for zookeper to run first.</li>
 </ul>
+  
+
+More:
 + messaging and streaming applications
 + takes data from different sources and makes it available for different applications
 + helps to eliminate daily batch jobs
